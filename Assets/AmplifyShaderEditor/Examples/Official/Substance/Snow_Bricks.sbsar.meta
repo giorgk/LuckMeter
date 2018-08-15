@@ -1,255 +1,84 @@
 fileFormatVersion: 2
 guid: 7af3ece29374c234f9406a3bb35df76c
-timeCreated: 1487082594
-licenseType: Store
-SubstanceImporter:
-  serializedVersion: 5
-  materialInstances:
-  - serializedVersion: 16
-    name: Snow_Bricks
-    prototypeName: Snow_Bricks
-    shaderName: 
-    shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-    shaderKeywords: 
-    renderQueue: -1
-    lightmapFlags: 5
-    inputs:
-    - name: $time
-      value:
-        scalar[0]: 0
-        scalar[1]: 0
-        scalar[2]: 0
-        scalar[3]: 0
-        texture: {instanceID: 0}
-    - name: $outputsize
-      value:
-        scalar[0]: 8
-        scalar[1]: 8
-        scalar[2]: 0
-        scalar[3]: 0
-        texture: {instanceID: 0}
-    - name: $pixelsize
-      value:
-        scalar[0]: 1
-        scalar[1]: 1
-        scalar[2]: 0
-        scalar[3]: 0
-        texture: {instanceID: 0}
-    - name: $randomseed
-      value:
-        scalar[0]: 0
-        scalar[1]: 0
-        scalar[2]: 0
-        scalar[3]: 0
-        texture: {instanceID: 0}
-    - name: snow
-      value:
-        scalar[0]: 0.24
-        scalar[1]: 0
-        scalar[2]: 0
-        scalar[3]: 0
-        texture: {instanceID: 0}
-    - name: edge_warp
-      value:
-        scalar[0]: 0.49
-        scalar[1]: 0
-        scalar[2]: 0
-        scalar[3]: 0
-        texture: {instanceID: 0}
-    - name: water_level
-      value:
-        scalar[0]: 0.4
-        scalar[1]: 0
-        scalar[2]: 0
-        scalar[3]: 0
-        texture: {instanceID: 0}
-    - name: disorder
-      value:
-        scalar[0]: 0.38
-        scalar[1]: 0
-        scalar[2]: 0
-        scalar[3]: 0
-        texture: {instanceID: 0}
-    materialInformation:
-      serializedVersion: 5
-      offset: {x: 0, y: 0}
-      scale: {x: 1, y: 1}
-      generateMipmaps: 1
-      generateAllOutputs: 1
-      animationUpdateRate: 42
-    materialProperties:
-      serializedVersion: 2
-      texEnvs:
-      - first:
-          name: _BumpMap
-        second:
-          texture: {instanceID: 0}
-          scale: {x: 1, y: 1}
-          offset: {x: 0, y: 0}
-      - first:
-          name: _DetailAlbedoMap
-        second:
-          texture: {instanceID: 0}
-          scale: {x: 1, y: 1}
-          offset: {x: 0, y: 0}
-      - first:
-          name: _DetailMask
-        second:
-          texture: {instanceID: 0}
-          scale: {x: 1, y: 1}
-          offset: {x: 0, y: 0}
-      - first:
-          name: _DetailNormalMap
-        second:
-          texture: {instanceID: 0}
-          scale: {x: 1, y: 1}
-          offset: {x: 0, y: 0}
-      - first:
-          name: _EmissionMap
-        second:
-          texture: {instanceID: 0}
-          scale: {x: 1, y: 1}
-          offset: {x: 0, y: 0}
-      - first:
-          name: _MainTex
-        second:
-          texture: {instanceID: 0}
-          scale: {x: 1, y: 1}
-          offset: {x: 0, y: 0}
-      - first:
-          name: _MetallicGlossMap
-        second:
-          texture: {instanceID: 0}
-          scale: {x: 1, y: 1}
-          offset: {x: 0, y: 0}
-      - first:
-          name: _OcclusionMap
-        second:
-          texture: {instanceID: 0}
-          scale: {x: 1, y: 1}
-          offset: {x: 0, y: 0}
-      - first:
-          name: _ParallaxMap
-        second:
-          texture: {instanceID: 0}
-          scale: {x: 1, y: 1}
-          offset: {x: 0, y: 0}
-      floats:
-      - first:
-          name: _BumpScale
-        second: 1
-      - first:
-          name: _Cutoff
-        second: 0.5
-      - first:
-          name: _DetailNormalMapScale
-        second: 1
-      - first:
-          name: _DstBlend
-        second: 0
-      - first:
-          name: _GlossMapScale
-        second: 1
-      - first:
-          name: _Glossiness
-        second: 0.5
-      - first:
-          name: _GlossyReflections
-        second: 1
-      - first:
-          name: _Metallic
-        second: 0
-      - first:
-          name: _Mode
-        second: 0
-      - first:
-          name: _OcclusionStrength
-        second: 1
-      - first:
-          name: _Parallax
-        second: 0.02
-      - first:
-          name: _SmoothnessTextureChannel
-        second: 0
-      - first:
-          name: _SpecularHighlights
-        second: 1
-      - first:
-          name: _SrcBlend
-        second: 1
-      - first:
-          name: _UVSec
-        second: 0
-      - first:
-          name: _ZWrite
-        second: 1
-      colors:
-      - first:
-          name: _Color
-        second: {r: 1, g: 1, b: 1, a: 1}
-      - first:
-          name: _EmissionColor
-        second: {r: 0, g: 0, b: 0, a: 1}
-    textureParameters:
-    - name: Snow_Bricks_basecolor
-      alphaSource: 6
-      filterMode: 1
-      aniso: 1
-      wrapMode: 0
-    - name: Snow_Bricks_normal
-      alphaSource: 0
-      filterMode: 1
-      aniso: 1
-      wrapMode: 0
-    - name: Snow_Bricks_metallic
-      alphaSource: 7
-      filterMode: 1
-      aniso: 1
-      wrapMode: 0
-    - name: Snow_Bricks_ambientocclusion
-      alphaSource: 0
-      filterMode: 1
-      aniso: 1
-      wrapMode: 0
-    - name: Snow_Bricks_height
-      alphaSource: 0
-      filterMode: 1
-      aniso: 1
-      wrapMode: 0
-    - name: Snow_Bricks_roughness
-      alphaSource: 0
-      filterMode: 1
-      aniso: 1
-      wrapMode: 0
-    textureAssignments:
-    - shaderProp:
-        name: _MainTex
-      material: {instanceID: 0}
-      baseUID: 2148648668
-    - shaderProp:
-        name: _BumpMap
-      material: {instanceID: 0}
-      baseUID: 2148648640
-    - shaderProp:
-        name: _OcclusionMap
-      material: {instanceID: 0}
-      baseUID: 2148648622
-    - shaderProp:
-        name: _ParallaxMap
-      material: {instanceID: 0}
-      baseUID: 2148648609
-    - shaderProp:
-        name: _MetallicGlossMap
-      material: {instanceID: 0}
-      baseUID: 2148648625
-    buildTargetSettings:
-    - serializedVersion: 2
-      buildTarget: 
-      textureWidth: 512
-      textureHeight: 512
-      textureFormat: 0
-      loadingBehavior: 1
-  deletedPrototypes: []
+ScriptedImporter:
+  fileIDToRecycleName:
+    100000: Snow_Bricks/Snow_Bricks
+    400000: Snow_Bricks/Snow_Bricks/Transform
+    2100000: mat.Snow_Bricks
+    2300000: Snow_Bricks/Snow_Bricks/MeshRenderer
+    2800000: Snow_Bricks_Base Color
+    2800002: Snow_Bricks_Normal
+    2800004: Snow_Bricks_Metallic
+    2800006: Snow_Bricks_Ambient Occlusion
+    2800008: Snow_Bricks_Height
+    3300000: Snow_Bricks/Snow_Bricks/MeshFilter
+    11400000: sbsar
+    11400002: graph0
+    13500000: Snow_Bricks/Snow_Bricks/SphereCollider
+    100100000: Snow_Bricks
+  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+  script: {fileID: 232528478, guid: 43a8bbf65be290d44ba52b94476242b9, type: 3}
+  mGraphInstanceData:
+  - graphLabel: Snow_Bricks
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://Snow_Bricks\" label=\"\" >\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: Base Color,Normal,Metallic,Ambient Occlusion,Height
+    texturePackingList:
+    - outputName: Base Color
+      alphaSource: Base Color
+    - outputName: Normal
+      alphaSource: Normal
+    - outputName: Roughness
+      alphaSource: Roughness
+    - outputName: Metallic
+      alphaSource: Smoothness
+    - outputName: Ambient Occlusion
+      alphaSource: Ambient Occlusion
+    - outputName: Height
+      alphaSource: Height
+    colorSpaceList:
+    - outputName: Base Color
+      bLinear: 0
+    - outputName: Normal
+      bLinear: 1
+    - outputName: Roughness
+      bLinear: 1
+    - outputName: Metallic
+      bLinear: 1
+    - outputName: Ambient Occlusion
+      bLinear: 1
+    - outputName: Height
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: Default
+      bOverride: 0
+      bLockRatio: 1
+      bHighQuality: 0
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      loadBehavior: 0
+    - label: Standalone
+      bOverride: 0
+      bLockRatio: 1
+      bHighQuality: 0
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      loadBehavior: 0
+    - label: iPhone
+      bOverride: 0
+      bLockRatio: 1
+      bHighQuality: 0
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      loadBehavior: 0
+    material: {instanceID: 0}
