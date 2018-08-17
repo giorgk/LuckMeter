@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// I've found this script attached to several UI buttons but its doing nothing
+
 public class ButtonsScript : MonoBehaviour {
 
 	Texture2D mytexture;

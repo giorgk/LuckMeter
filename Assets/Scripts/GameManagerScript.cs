@@ -70,6 +70,7 @@ public class GameManagerScript : MonoBehaviour {
 	ManagerAdScript Admanager = null;
 	InputManagerScript inputmanager = null;
 	LoadSaveScript loadsave = null;
+    LeaderBoardManagerScript leaderboardmanager = null;
 
 
 	void Awake(){
@@ -82,8 +83,10 @@ public class GameManagerScript : MonoBehaviour {
 		Admanager = GetComponent<ManagerAdScript> ();
 		inputmanager = GetComponent<InputManagerScript> ();
 		loadsave = GetComponent<LoadSaveScript> ();
+        leaderboardmanager = GetComponent<LeaderBoardManagerScript>();
 
-		setNewGameState (GameState.MainMenu);
+
+        setNewGameState (GameState.MainMenu);
 
 		// for Debug only
 		//setNewGameState (GameState.ConfigPlayer);
@@ -247,6 +250,8 @@ public class GameManagerScript : MonoBehaviour {
 	}
 		
 
+    // Add this method to MainMenu StatsButton
+    // I removed it when testing leaderboards
 	// transition from Main menu to stats
 	public void ShowHiScore(){
 		setNewGameState (GameState.HiScores);
@@ -317,9 +322,10 @@ public class GameManagerScript : MonoBehaviour {
 		} else if (newstate == GameState.ConfirmQuestion) {//---------CONFIRM QUESTION
 			canvasManager.SetPanel (canvasManager.confirmPanel);
 		} else if (newstate == GameState.HiScores) {// ---------------HiScores
-			HiscoreList.resetposition();
-			cameraManager.setCameraState (CamState.HiScores);
-			canvasManager.SetPanel (8);
+            leaderboardmanager.ShowLeaderBoard();
+            //HiscoreList.resetposition();
+			//cameraManager.setCameraState (CamState.HiScores);
+			//canvasManager.SetPanel (8);
 		} else if (newstate == GameState.Stats) {
 			canvasManager.SetPanel (3);
 		}else if (newstate == GameState.info){
